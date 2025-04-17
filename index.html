@@ -15,8 +15,7 @@
 
     <nav class="navbar">
       <a href="#home" class="active">Inicio</a>
-      <a href="#about">Sobre mi</a>
-      <a href="#services">Servicios</a>
+      <a href="#services">Tecnologías</a>
       <a href="#portfolio">Portafolio</a>
       <a href="#contact">Contacto</a>
     </nav>
@@ -24,36 +23,181 @@
   <!--Section Home-->
   <section class="home" id="home">
     <div class="home-content">
-      <h3>Hello, It's me</h3>
+      <h3>Hola mi nombre es</h3>
       <h1>Yeison Ruano</h1>
-      <h3>And I'm a <span>Ingeniero en Informática y desarrollador Fullstack</span></h3>
-      <p> Lorenm petalo de flor que se mueve con el viento </p>
+      <h3><span class="multiple-text"></span></h3>
+      <p> Ingeniero en Informática con habilidades en desarrollo de software escalable usando Java, Spring Boot y Angular. Apasionado por mejorar la experiencia del usuario y optimizar sistemas de información.</p> 
+      <p>Familiarizado con metodologías ágiles, APIs REST y bases de datos SQL/NoSQL. En constante evolución y abierto a nuevas tecnologías que impulsen la transformación digital.</p>
       <div class="social-media">
-        <a href="#"><i class="bx bxl-facebook" ></i></a>
-        <a href="#"><i class="bx bxl-twitter" ></i></a>
-        <a href="#"><i class="bx bxl-instagram-alt"></i></a>
-        <a href="#"><i class="bx bxl-linkedin"></i></a>
+        <a href="#" onclick="copiarMail()"><i class="bx bxl-gmail"></i></a>
+        <a href="https://github.com/yeison1ruano2" target="_blank"><i class="bx bxl-github"></i></a>
+        <a href="https://www.linkedin.com/in/yeison-stiven-david-ruano-silva-66206526b/" target="_blank"><i class="bx bxl-linkedin"></i></a>
       </div>
-      <a href="document/CVYeisonRuano.pdf" class="btn" download>CV</a>
+      <a href="document/CVYeisonRuano.pdf"  target="_blank" class="btn" download>CV</a>
     </div>
     <div class="home-img">
       <img src="images/home blue.png" alt="">
     </div>
   </section>
 
-  <!--Section About-->
-  <section class="about" id="about">
-    <div class="about-img">
-      <img src="images/home.png" alt="">
-    </div>
-    <div class="about-content">
-      <h2 class="heading">Sobre <span>Mi</span></h2>
-      <h3>Ingeniero en Informática y Desarrollador Fullstack</h3>
-      <p> Loren como flor que sopla por el viento</p>
-      <a href="#" class="btn">Conoce más</a>
+  <!--Section Services-->
+
+  <section class="services" id="services">
+    <h2 class="heading"><span>Tecno</span>logías</h2>
+    <div class="services-container">
+      <div class="services-box">
+        <i class='bx bxl-java'></i>
+        <h3>Java</h3>
+      </div>
+
+      <div class="services-box">
+        <i class='bx bxl-spring-boot' ></i>
+        <h3>SpringBoot</h3>
+      </div>
+
+      <div class="services-box">
+        <i class='bx bxl-angular' ></i>
+        <h3>Angular</h3>
+      </div>
+
+      <div class="services-box">
+        <i class='bx bxl-angular' ></i>
+        <h3>Ionic</h3>
+      </div>
+
+      <div class="services-box">
+        <i class='bx bxl-angular' ></i>
+        <h3>Genexus</h3>
+      </div>
+    
+      <div class="services-box">
+        <i class='bx bxl-github' ></i>
+        <h3>Github</h3>
+      </div>
+
+      <div class="services-box">
+        <i class='bx bxl-docker'></i>
+        <h3>Docker</h3>
+      </div>
+
+      <div class="services-box">
+        <i class='bx bxs-data'></i>
+        <h3>MySQL</h3>
+      </div>
+
+      <div class="services-box">
+        <i class='bx bxl-postgresql' ></i>
+        <h3>PostgreSQL</h3>
+      </div>
+
+      <div class="services-box">
+        <i class='bx bxl-mongodb' ></i>
+        <h3>Mongo DB</h3>
+      </div>
+
+      <div class="services-box">
+        <i class='bx bxl-firebase' ></i>
+        <h3>Firebase</h3>
+      </div>
+
+      <div class="services-box">
+        <i class='bx bxl-nodejs' ></i>
+        <h3>NodeJS</h3>
+      </div>
+
+      <div class="services-box">
+        <i class='bx bxl-html5' ></i>
+        <h3>Html</h3>
+      </div>
+
+      <div class="services-box">
+        <i class='bx bxl-css3' ></i>
+        <h3>CSS</h3>
+      </div>
+
+      <div class="services-box">
+        <i class='bx bxl-javascript' ></i>
+        <h3>JavaScript</h3>
+      </div>
+
+      <div class="services-box">
+        <i class='bx bxl-typescript' ></i>
+        <h3>TypeScript</h3>
+      </div>
+
+      <div class="services-box">
+        <i class='bx bxl-bootstrap'></i>
+        <h3>BootsTrap</h3>
+      </div>
+
+      <div class="services-box">
+        <i class='bx bxl-redux'></i>
+        <h3>PrimeNG</h3>
+      </div>
     </div>
   </section>
 
+  <!--Section portfolio-->
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">Ultimos <span>Proyectos</span></h2>
+
+    <div class="portfolio-container">
+      <div class="portfolio-box">
+        <img src="images/home blue.png" alt="">
+        <div class="portfolio-layer">
+          <h4>Diseño Web</h4>
+          <p>Loren flor que se mueve con el viento</p>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="images/home blue.png" alt="">
+        <div class="portfolio-layer">
+          <h4>Diseño Web</h4>
+          <p>Loren flor que se mueve con el viento</p>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="images/home blue.png" alt="">
+        <div class="portfolio-layer">
+          <h4>Diseño Web</h4>
+          <p>Loren flor que se mueve con el viento</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Section Contacto-->
+  <section class="contact" id="contact">
+    <h2 class="heading">Contactame</h2>
+    <form action="#">
+      <div class="input-box">
+        <input type="text" placeholder="Nombre Completo">
+        <input type="email" placeholder="Correo Electronico">
+      </div>
+      <div class="input-box">
+        <input type="number" placeholder="Numero de Celular">
+        <input type="email" placeholder="Asunto de Correo Electronico">
+      </div>
+      <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje"></textarea>
+      <input type="submit" value="Enviar Mensaje" class="btn">
+    </form>
+  </section>
+
+  <!--Section Footer-->
+  <footer class="footer">
+    <div class="footer-text">
+      <p>&copy; 2025 Todos Los Derechos Reservados</p>
+    </div>
+    <div class="footer-iconTop">
+      <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
   <script src="js/script.js"></script>
 </body>
